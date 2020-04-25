@@ -59,6 +59,9 @@
     <Compile Include="Window1_Fonseca.xaml.cs">
       <DependentUpon>Window1_Fonseca.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window1_otro_marvin.xaml.cs">
+      <DependentUpon>Window1_otro_marvin.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +75,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Window1_Fonseca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1_otro_marvin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
